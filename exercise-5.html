@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+      .parent {
+        width: 1000px;
+        height: 800px;
+        background: linear-gradient(
+          106.32deg,
+          rgba(255, 255, 255, 0.34) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        margin: 80px auto 80px auto;
+        border-radius: 50px;
+        position: relative;
+        border-radius: 30px;
+        border: solid #ffffff 3px;
+      }
+      .child1 {
+        width: 1000px;
+        height: 100px;
+        margin: 10px 0 0 0;
+        position: absolute;
+      }
+      .child2 {
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        margin: 200px 100px 200px 100px;
+        border-radius: 150px;
+        border: solid #a2a2a2 3px;
+      }
+      .child3 {
+        width: 200px;
+        height: 150px;
+        display: inline-block;
+        margin: 125px 0 0 100px;
+      }
+      .child4 {
+        width: 200px;
+        height: 150px;
+        display: inline-block;
+        margin: 328px 0 0 530px;
+        position: absolute;
+      }
+      .child5 {
+        width: 550px;
+        height: 500px;
+        position: absolute;
+        right: 150px;
+        bottom: 0px;
+      }
+      .child6 {
+        width: 1000px;
+        height: 100px;
+        position: absolute;
+        bottom: 10px;
+      }
+      li {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="parent">
+        <div class="child1">
+          <div>
+            <div
+              style="
+                width: 450px;
+                height: 80px;
+                display: inline-block;
+                margin: 10px 10px 10px 50px;
+                position: absolute;
+              "
+            >
+              <img
+                style="
+                  width: 100px;
+                  height: auto;
+                  position: absolute;
+                  margin: 20px 20px 20px 5px;
+                "
+                src="/Asset/nike-small.png"
+                alt="nike-logo-small"
+              />
+              <ul
+                style="
+                  font-family: Roboto, sans-serif;
+                  color: #ffffff;
+                  margin: 20px 0 20px 120px;
+                  line-height: 40px;
+                "
+              >
+                <li style="margin-left: 20px">Man</li>
+                <li style="margin-left: 20px">Woman</li>
+                <li style="margin-left: 20px">Kid</li>
+                <li style="margin-left: 20px">Explore</li>
+              </ul>
+            </div>
+
+            <div
+              style="
+                width: 250px;
+                height: 80px;
+                display: inline-block;
+                margin: 10px 50px 10px 670px;
+                position: absolute;
+              "
+            >
+              <ul
+                style="
+                  font-family: Roboto, sans-serif;
+                  color: #ffffff;
+                  margin: 20px 0 20px 30px;
+                  line-height: 40px;
+                "
+              >
+                <li>Search</li>
+                <li
+                  style="
+                    margin-left: 50px;
+                    padding: 5px 15px 5px 15px;
+                    border-radius: 10px;
+                    background-color: #ff64a5;
+                  "
+                >
+                  Shop Now
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="child2">
+          <img
+            style="
+              width: 650px;
+              height: 250px;
+              position: absolute;
+              margin: 60px 100px 0 90px;
+              z-index: 1;
+            "
+            src="/Asset/nike-large.png"
+            alt="nike-logo"
+          />
+          <div
+            class="child3"
+            style="
+              color: #ffffff;
+              z-index: 2;
+              font-family: Montserrat, sans-serif;
+
+              font-size: 200px;
+              line-height: 150px;
+              position: absolute;
+            "
+          >
+            <strong>NI</strong>
+          </div>
+          <div class="child5">
+            <img
+              style="
+                width: 550px;
+                height: 500px;
+                position: absolute;
+                z-index: 2;
+              "
+              src="/Asset/nike-shoe.png"
+              alt="nike-shoe"
+            />
+          </div>
+        </div>
+        <div
+          class="child4"
+          style="
+            color: #a2a2a2;
+            font-family: Montserrat, sans-serif;
+
+            font-size: 200px;
+            line-height: 150px;
+            position: absolute;
+            z-index: 3;
+          "
+        >
+          <strong>KE</strong>
+        </div>
+        <div class="child6">
+          <div
+            style="
+              width: 150px;
+              height: 40px;
+              background-color: #4729ff;
+              font-family: roboto, sans-serif;
+              color: #ffffff;
+              border-radius: 5px;
+              line-height: 40px;
+              position: absolute;
+              left: 70px;
+              top: 20px;
+              text-align: right;
+              padding-right: 20px;
+            "
+          >
+            <div
+              style="
+                display: inline-block;
+                position: absolute;
+                left: 20px;
+                top: 5px;
+              "
+            >
+              <img style="width: 20px" src="/Asset/bag.png" alt="bag-icon" />
+            </div>
+            Add to Cart
+          </div>
+        </div>
+        <div
+          style="
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            bottom: 35px;
+            right: 70px;
+            font-family: Roboto, sans-serif;
+          "
+        >
+          <div style="margin-bottom: 5px; color: #ffffff">Ultra Mechanics</div>
+          <div style="color: #a2a2a2">
+            When a player steps in, a custom motor and gear train senses the
+            tension needed by the foot
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
